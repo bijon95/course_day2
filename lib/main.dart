@@ -61,38 +61,246 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-  var size = MediaQuery.of(context).size.width;
+    var size = MediaQuery.of(context).size.width;
     return Scaffold(
-      appBar: AppBar(title: Text(widget.title),),
-      body:Column(
+      body: Column(
         children: [
-          Container(
-            height: 200,
-            width: 150,
-            color: Colors.amberAccent,
+          Row(
+            children: [
+              Container(
+                margin: EdgeInsets.all(10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.pink,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("C")),
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("3")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("2")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("1")),
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: size/4,
-            color: Colors.black,
+          Row(
+            children: [
+              Container(
+                margin: EdgeInsets.all(10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.pink,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("C")),
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("3")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("2")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("1")),
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: size/4,
-            color: Colors.red,
+          Row(
+            children: [
+              Container(
+                margin: EdgeInsets.all(10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.pink,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("C")),
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("3")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("2")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("1")),
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: size/4,
-            decoration: BoxDecoration(
-            color: Colors.green,
-              borderRadius: BorderRadius.circular(10),
-            ),
+          Row(
+            children: [
+              Container(
+                margin: EdgeInsets.all(10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.pink,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("C")),
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("3")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("2")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("1")),
+              ),
+            ],
           ),
-
+          Row(
+            children: [
+              Container(
+                margin: EdgeInsets.all(10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.pink,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("C")),
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("3")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("2")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("1")),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Container(
+                margin: EdgeInsets.all(10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.pink,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("C")),
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("3")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("2")),
+              ),
+              Container(
+                margin: EdgeInsets.only(left: 10,right: 10,top: 10,bottom: 10),
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(child: Text("1")),
+              ),
+            ],
+          ),
         ],
       ),
-
     );
   }
 }
